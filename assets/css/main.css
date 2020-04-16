@@ -3535,8 +3535,20 @@ input, select, textarea {
 					/* border-radius: 100%; */
 					display: block;
 					width: 100%;
-					top: -30px;
+					top: -25px;
 					position: relative;
+				}
+
+				@media (max-width: 479px) {
+					#banner .content .image img {
+						top: -10px;
+					}
+				}
+
+				@media (max-width: 1024px) and (min-width: 480px) {
+					#banner .content .image img {
+						top: -15px;
+					}
 				}
 
 	body.is-touch #banner {
