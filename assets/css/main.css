@@ -2217,7 +2217,7 @@ input, select, textarea {
 /* Form */
 
 	@media screen and (min-width: 550px){
-		.form {
+		form {
 			margin: 0 20%;
 		}
 	}
