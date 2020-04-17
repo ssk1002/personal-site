@@ -19,6 +19,10 @@
 	color: white;
 }
 
+.row.input {
+    padding-bottom: 1.5em;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2212,8 +2216,10 @@ input, select, textarea {
 
 /* Form */
 
-	form {
-		margin: 0 0 2em 0;
+	@media screen and (min-width: 550px){
+		.form {
+			margin: 0 20%;
+		}
 	}
 
 		form.cta {
