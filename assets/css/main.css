@@ -3669,6 +3669,13 @@ input, select, textarea {
 				width: 25em;
 			}
 
+			@media(max-height: 750px){
+				.spotlight.left .content, .spotlight.right .content {
+					padding: 1.5em 2.5em;
+					width: 30em;
+				}
+			}
+
 		/* Wrapper */
 
 			.wrapper {
